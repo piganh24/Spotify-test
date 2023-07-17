@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>Core</name>
+	</assembly>
+	<members>
+		<member name="P:Core.DTOs.Identity.SignUpItemDTO.FirstName">
+			<example>Elizabet</example>
+		</member>
+		<member name="P:Core.DTOs.Identity.SignUpItemDTO.LastName">
+			<example>Woolridge</example>
+		</member>
+		<member name="P:Core.DTOs.Identity.SignUpItemDTO.UserName">
+			<example>LanaDelRey</example>
+		</member>
+		<member name="P:Core.DTOs.Identity.SignUpItemDTO.Email">
+			<example>lana@gmail.com</example>
+		</member>
+		<member name="P:Core.DTOs.Identity.SignUpItemDTO.AboutMe">
+			<example>Elizabeth Woolridge Grant, known professionally as Lana Del Rey, is an American singer-songwriter</example>
+		</member>
+		<member name="P:Core.DTOs.Identity.SignUpItemDTO.Image">
+			<example>INSERT BASE64</example>
+		</member>
+		<member name="P:Core.DTOs.Identity.SignUpItemDTO.Password">
+			<example>Qwertyuiop123@D!#da</example>
+		</member>
+		<member name="P:Core.DTOs.Identity.SignUpItemDTO.ConfirmPassword">
+			<example>Qwertyuiop123@D!#da</example>
+		</member>
+		<member name="P:Core.DTOs.Album.AlbumCreateDTO.Title">
+			<example>Summer album</example>
+		</member>
+		<member name="P:Core.DTOs.Album.AlbumCreateDTO.PublisherId">
+			<example>1</example>
+		</member>
+		<member name="P:Core.DTOs.Album.AlbumCreateDTO.GenreId">
+			<example>1</example>
+		</member>
+		<member name="P:Core.DTOs.Album.AlbumCreateDTO.Duration">
+			<example>1300</example>
+		</member>
+		<member name="P:Core.DTOs.Album.AlbumCreateDTO.Image">
+			<example>INSERT BASE64</example>
+		</member>
+		<member name="P:Core.DTOs.Album.AlbumCreateDTO.Description">
+			<example>The best album for summer</example>
+		</member>
+		<member name="P:Core.DTOs.Genre.GenreCreateDTO.Name">
+			<example>Rock</example>
+		</member>
+		<member name="P:Core.DTOs.Genre.GenreCreateDTO.Description">
+			<example>Rock for the loudest concerts</example>
+		</member>
+		<member name="P:Core.DTOs.Genre.GenreCreateDTO.Image">
+			<example>INSERT BASE64</example>
+		</member>
+		<member name="P:Core.DTOs.Playlist.PlaylistCreateDTO.Title">
+			<example>My music for weekend</example>
+		</member>
+		<member name="P:Core.DTOs.Playlist.PlaylistCreateDTO.Description">
+			<example>Simply and calm</example>
+		</member>
+		<member name="P:Core.DTOs.Playlist.PlaylistCreateDTO.Duration">
+			<example>2400</example>
+		</member>
+		<member name="P:Core.DTOs.Playlist.PlaylistCreateDTO.Image">
+			<example>INSERT BASE64</example>
+		</member>
+		<member name="P:Core.DTOs.Publisher.PublisherCreateDTO.Name">
+			<example>Sony Universal Music</example>
+		</member>
+		<member name="P:Core.DTOs.Publisher.PublisherCreateDTO.Image">
+			<example>INSERT BASE64</example>
+		</member>
+		<member name="P:Core.DTOs.Publisher.PublisherCreateDTO.Description">
+			<example>The biggest music company in the world</example>
+		</member>
+		<member name="P:Core.DTOs.Track.TrackCreateDTO.Title">
+			<example>West coast</example>
+		</member>
+		<member name="P:Core.DTOs.Track.TrackCreateDTO.GenreId">
+			<example>1</example>
+		</member>
+		<member name="P:Core.DTOs.Track.TrackCreateDTO.Description">
+			<example>It's a song by the Lana Del Rey</example>
+		</member>
+		<member name="P:Core.DTOs.Track.TrackCreateDTO.Duration">
+			<example>180</example>
+		</member>
+		<member name="P:Core.DTOs.Track.TrackCreateDTO.Image">
+			<example>INSERT BASE64</example>
+		</member>
+		<member name="T:Core.Resources.ErrorMassages.ErrorMassages">
+			<summary>
+				A strongly-typed resource class, for looking up localized strings, etc.
+			</summary>
+		</member>
+		<member name="P:Core.Resources.ErrorMassages.ErrorMassages.ResourceManager">
+			<summary>
+				Returns the cached ResourceManager instance used by this class.
+			</summary>
+		</member>
+		<member name="P:Core.Resources.ErrorMassages.ErrorMassages.Culture">
+			<summary>
+				Overrides the current thread's CurrentUICulture property for all
+				resource lookups using this strongly typed resource class.
+			</summary>
+		</member>
+		<member name="P:Core.Resources.ErrorMassages.ErrorMassages.EmpyItem">
+			<summary>
+				Looks up a localized string similar to - is null or empy!.
+			</summary>
+		</member>
+		<member name="P:Core.Resources.ErrorMassages.ErrorMassages.IdValueError">
+			<summary>
+				Looks up a localized string similar to Id cannot be a negative value!.
+			</summary>
+		</member>
+		<member name="P:Core.Resources.ErrorMassages.ErrorMassages.InvalidCredentials">
+			<summary>
+				Looks up a localized string similar to Invalid email or passwords!.
+			</summary>
+		</member>
+		<member name="P:Core.Resources.ErrorMassages.ErrorMassages.ItemNotFount">
+			<summary>
+				Looks up a localized string similar to  not found!.
+			</summary>
+		</member>
+	</members>
+</doc>
